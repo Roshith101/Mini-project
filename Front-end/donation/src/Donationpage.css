@@ -1,0 +1,55 @@
+.donation-page {
+    background-color: #fff;
+    padding: 50px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .fundraiser-card {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    padding: 20px;
+    height: 260px;
+    background-color: #f5f5f5;
+    /* transform:translate(); */
+  }
+  
+  .fundraiser-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fundraiser-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .fundraiser-card button {
+    background-color: #427bb8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fundraiser-card button:hover {
+    background-color: #3259a7;
+  }
+
+  /* .fundraiser-card image{
+    transform:translate(100%);
+  }
+   */
+  @media (max-width: 768px) {
+    .donation-page {
+      width: 100%;
+    }
+  }
+
+.fundraiser-image{
+  margin-left: 650px;
+  transform: translateY(-200px);
+}

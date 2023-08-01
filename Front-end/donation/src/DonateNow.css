@@ -1,0 +1,51 @@
+.donate-now-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .donate-now-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .donate-now-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .donate-now-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .donate-now-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .donate-now-button {
+    background-color: #fd5f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-now-button:hover {
+    background-color: #e65100;
+  }
+  
